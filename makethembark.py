@@ -11,6 +11,7 @@ class Dog(object):
 
 	def bark(self):
     	return 'Woof!'
+    	dog.bark = bark
         
 # Tests
 
