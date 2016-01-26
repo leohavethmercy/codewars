@@ -6,13 +6,17 @@
 # spam(6);#huehuehuehuehuehue
 # spam(14);#huehuehuehuehuehuehuehuehuehuehuehuehuehue
 
-fix this code!
-def spam(number):
-    return ['hue' for i in range(number+1)]
+# fix this code!
+# def spam(number):
+#     return ['hue' for i in range(number+1)]
 
- #Solution
+#Solution(s)
 
 def spam(number):
 	return 'hue' * number
+
+def spam(number):
+	return ''.join('hue') * number
+
 
 #This made me feel stupid..

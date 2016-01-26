@@ -6,11 +6,11 @@ Solutions
 
 def solution(number):
 
-  A = len([x for x in range(1,number) if x%3 == 0 and x%5 != 0])
-  B = len([x for x in range(1,number) if x%5 == 0 and x%3 != 0])
-  C = len([x for x in range(1,number) if x%3 == 0 and x%5 == 0])
-  
-  return [A,B,C]
+  return [
+len([x for x in range(1,number) if x%3 == 0 and x%5 != 0]),
+len([x for x in range(1,number) if x%5 == 0 and x%3 != 0]),
+len([x for x in range(1,number) if x%3 == 0 and x%5 == 0])
+]
 
 Tests
 
